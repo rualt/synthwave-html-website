@@ -1,0 +1,93 @@
+body {
+    font-family: Georgia;
+    font-size: 17px;
+    color: rgb(185, 185, 185);
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: rgb(27, 27, 27);
+}
+
+h1 {
+    text-align: center;
+    color: darkorchid;
+}
+
+h4 {
+    text-align: center;
+    color: darkorchid;
+}
+
+.band img {
+    height: 300px;
+}
+
+.example-mix {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.example-mix iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+}
+   
+.iframe-container iframe {
+     border: 0;
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+.bg-image {
+    background: url(https://cdn.pixabay.com/photo/2018/04/05/15/19/abstract-3293076_960_720.jpg);
+    border: 2px solid darkviolet;
+    background-size: cover;
+}
+
+.bg-color {
+    padding: 30px;
+    background: rgba(0,0,0,.40);
+
+}
+.bg-image:hover .bg-color {
+    background: rgba(0,0,0,.65);
+}
+
+a {
+    color: darkorchid;
+}
+
+#menu {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid darkorchid;
+    border-bottom: 1px solid darkorchid;
+    border-color: darkorchid;
+}
+
+#menu td {
+    padding: 20px;
+}
+
+#landing {
+    background: url(https://cdn.pixabay.com/photo/2018/04/05/15/19/abstract-3293076_960_720.jpg) no-repeat;
+    opacity:0.9;
+    background-size: cover;
+}
