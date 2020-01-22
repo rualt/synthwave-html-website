@@ -19,6 +19,13 @@
             <td><a href="about.html">About project</a></td>
         </tr>
     </table>
+    <?php 
+        if ($_GET['status'] == 'success') {
+            echo "<script>alert('Your message is sent')</script>";
+        } elseif ($_GET['status'] == 'fail') {
+            echo "<script>alert('Something went wrong, please try again')</script>";
+        }
+    ?>
     <div id="about-project">
         <p>
             This is a training project where I practice html and css. 
