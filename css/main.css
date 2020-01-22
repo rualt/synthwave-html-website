@@ -20,6 +20,21 @@ h4 {
     color: darkorchid;
 }
 
+a {
+    color: darkorchid;
+}
+
+hr {
+    margin-bottom:20px;
+    width: 60%;
+    color:darkorchid;
+}
+
+.description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .band img {
     height: 300px;
 }
@@ -68,8 +83,13 @@ h4 {
     background: rgba(0,0,0,.65);
 }
 
-a {
-    color: darkorchid;
+.band {
+    padding-top: 20px;
+}
+
+#about-project {
+    padding-top: 35px;
+    padding-bottom:5px;
 }
 
 #menu {
@@ -90,4 +110,18 @@ a {
     background: url(https://cdn.pixabay.com/photo/2018/04/05/15/19/abstract-3293076_960_720.jpg) no-repeat;
     opacity:0.9;
     background-size: cover;
+}
+
+#footer {
+    color: darkgray;
+    font-size: 12px;
+    margin-top: 64px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#footer img {
+    width: 30px;
+    height: auto;
 }
