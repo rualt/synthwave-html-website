@@ -12,13 +12,17 @@ body {
 
 @media screen and (max-width: 600px) {
     body {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
 h1 {
     text-align: center;
     color: darkorchid;
+}
+
+h3 {
+    padding: 10px;
 }
 
 h4 {
@@ -36,9 +40,8 @@ hr {
     color:darkorchid;
 }
 
-.description {
-    padding-top: 10px;
-    padding-bottom: 10px;
+p.description {
+    padding:10px;
 }
 
 .band img {
