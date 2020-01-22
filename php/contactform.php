@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
         $txt = "You have recieved an email from ".$name.".\n\n".$message;
 
         mail($mailTo, $subjest, $txt, $headers);
-        header("Location: ".$_SERVER['HTTP_REFERER']);
+        header("Location: ".$_SERVER['HTTP_REFERER']."?status=success");
 } else {
-    header("Location: /index.html");
+    header("Location: ".$_SERVER['HTTP_REFERER']."?status=fail");
 }
