@@ -75,6 +75,7 @@ hr {
 }
 
 .bg-color {
+    margin:30px;
     padding: 30px;
     background: rgba(0,0,0,.40);
 
@@ -104,12 +105,6 @@ hr {
 
 #menu td {
     padding: 20px;
-}
-
-#landing {
-    background: url(https://cdn.pixabay.com/photo/2018/04/05/15/19/abstract-3293076_960_720.jpg) no-repeat;
-    opacity:0.9;
-    background-size: cover;
 }
 
 #footer {
