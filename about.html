@@ -37,44 +37,46 @@
             href="https://ru.wikipedia.org" target="_blank">Wikipedia.org</a>
             and
             <a href="https://synthwave.fandom.com/wiki/Synthwave_Wiki" target="_blank">Synthwave Wiki</a>
-    </div>
+   
         <p>
             Email me if you have questions or suggestions
         </p>
-    <form id="contact_form" name="contact-form" method="post" action="php/contactform.php"
-    onsubmit="javascript:return validate('contact_form','email');">
-        <table width="450px">
-        <tr>
-         <td valign="top">
-          <label for="name">Name *</label>
-         </td>
-         <td valign="top">
-          <input type="text" name="name" maxlength="50" size="30" required>
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="email">Email Address *</label>
-         </td>
-         <td valign="top">
-          <input id="email" type="text" name="email" maxlength="80" size="30" required>
-         </td>
-        </tr>
-        <tr>
-         <td valign="top">
-          <label for="message">Message *</label>
-         </td>
-         <td valign="top">
-          <textarea  name="message" maxlength="1000" cols="25" rows="6" required></textarea>
-         </td>
-        </tr>
-        <tr>
-         <td colspan="2" style="text-align:center">
-          <input type="submit" name='submit' value="Submit"/>
-         </td>
-        </tr>
-        </table>
+
+        <form id="contact_form" name="contact-form" method="post" action="php/contactform.php"
+            onsubmit="javascript:return validate('contact_form','email');">
+            <table width="450px">
+                <tr>
+                    <td valign="top">
+                        <label for="name">Name *</label>
+                    </td>
+                    <td valign="top">
+                    <input type="text" name="name" maxlength="50" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="email">Email *</label>
+                    </td>
+                    <td valign="top">
+                        <input id="email" type="text" name="email" maxlength="80" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <label for="message">Message *</label>
+                    </td>
+                    <td valign="top">
+                        <textarea  name="message" maxlength="1000" cols="25" rows="6" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                         <input type="submit" name='submit' value="Submit"/>
+                    </td>
+                </tr>
+            </table>
         </form>
+    </div>
         <div id="footer">
             <hr>
             2020
@@ -85,5 +87,5 @@
             <a href="https://www.facebook.com/profile.php?id=100011296300538" target="blank"><img src="images/icons/fb_icon.png" alt="facebook"></a>
             <a href="https://t.me/@rualt" target="blank"><img src="images/icons/telegram_icon.png" alt="telegram"></a>
         </div>
-</body>
+    </body>
 </html>
